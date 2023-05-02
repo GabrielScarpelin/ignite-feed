@@ -1,0 +1,30 @@
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray-cards);
+    border-radius: .5rem;
+  }
+  .content {
+    position: relative;
+    top: -10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .profile-card h3{
+    color: var(--white);
+    margin-top: 1rem;
+  }
+  .profile-card h4{
+    color: var(--gray-text-apoio);
+    font-weight: 400;
+  }
+  .profile-card .content .line{
+    height: 1px;
+    width: 100%;
+    background-color: var(--gray-divider);
+    margin-block: 1.75rem;
+  }

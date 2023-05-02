@@ -1,0 +1,26 @@
+.buttonEditProfile{
+    display: flex;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    gap: .625rem;
+    color: var(--green-light);
+    background-color: transparent;
+    border: 2px solid var(--green-light);
+    border-radius: 0.5rem;
+}
+.buttonEditProfile p{
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttonEditProfile:hover{
+    background-color: var(--green-light);
+    color: var(--white);
+    transition: 200ms;
+    cursor: pointer;
+}
+.buttonEditProfile:hover path{
+    stroke: var(--white);
+    transition: 200ms;
+}

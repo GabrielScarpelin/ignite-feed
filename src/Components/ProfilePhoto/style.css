@@ -1,0 +1,9 @@
+.photo {
+    padding: 0.3rem;
+    display: flex;
+    border: 2px solid var(--green-light);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    background-color: var(--gray-background);
+  }
