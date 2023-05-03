@@ -1,6 +1,6 @@
 import './style.css'
 import backgroundUser from '../../assets/background-user.png'
-import Button from '../Button/Button'
+import { ButtonEditProfile } from '../Button/Button'
 import ProfilePhoto from '../ProfilePhoto/ProfilePhoto'
 
 function SideBar(){
@@ -12,7 +12,7 @@ function SideBar(){
             <h3>Leslie Alexander</h3>
             <h4>UI Designer</h4>
             <div className="line"></div>
-            <Button />
+            <ButtonEditProfile />
           </div>
         </div>
     )

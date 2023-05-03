@@ -24,3 +24,11 @@
     stroke: var(--white);
     transition: 200ms;
 }
+.buttonPublish {
+    background-color: var(--green);
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    color: white;
+    border-radius: 0.25rem;
+    border: none;
+}

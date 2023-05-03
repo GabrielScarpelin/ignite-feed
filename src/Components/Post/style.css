@@ -1,0 +1,32 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    background-color: var(--gray-cards);
+    width: 45%;
+    align-items: flex-start;
+}
+.headerPost, .info{
+    display: flex;
+}
+.headerPost {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+.info {
+    align-items: center;
+}
+.info div {
+    margin-left: 1rem;
+}
+.info h3{
+    font-size: 1rem;
+    color: var(--gray-text-titles);
+}
+.headerPost h4{
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--gray-text-apoio);
+}

@@ -1,6 +1,6 @@
 import './style.css'
 
-function Button(){
+function ButtonEditProfile(){
     return (
         <button className="buttonEditProfile">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -10,4 +10,11 @@ function Button(){
         </button>
     )
 }
-export default Button
+function ButtonPublish(){
+    return (
+        <button className="buttonPublish">
+            <p>Publicar</p>
+        </button>
+    )
+}
+export { ButtonEditProfile, ButtonPublish }

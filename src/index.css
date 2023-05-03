@@ -21,3 +21,7 @@ body{
   background-color: var(--gray-background);
   font-family: 'Roboto', sans-serif;
 }
+#root{
+  display: flex;
+  flex-direction: column;
+}
