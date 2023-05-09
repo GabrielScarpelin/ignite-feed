@@ -1,5 +1,6 @@
-import { ButtonPublish } from "../Button/Button"
-import ProfilePhoto from "../ProfilePhoto/ProfilePhoto"
+import { ButtonPublish } from "../Button"
+import FeedbackComment from "../Comment"
+import ProfilePhoto from "../ProfilePhoto"
 import './style.css'
 
 function Post(){
@@ -17,19 +18,20 @@ function Post(){
             </div>
             <div className="text">
                 <p>
-                Fala galeraa 👋
-
-                Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
-
-                👉<span>jane.design/doctorcare</span>
-
+                Fala galeraa 👋<br></br>
+                <br></br>
+                Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀<br></br>
+                <br></br>
+                👉<span>jane.design/doctorcare</span><br></br>
+                <br></br>
                 <span>#novoprojeto #nlw #rocketseat</span>
                 </p>
             </div>
             <div className="line"></div>
             <h3>Deixe seu feedback</h3>
-            <input type="text" name="" id="" />
+            <textarea placeholder="Escreva um comentário..."></textarea>
             <ButtonPublish />
+            <FeedbackComment />
         </div>
     )
 }

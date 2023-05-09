@@ -1,7 +1,7 @@
 import './style.css'
 import backgroundUser from '../../assets/background-user.png'
-import { ButtonEditProfile } from '../Button/Button'
-import ProfilePhoto from '../ProfilePhoto/ProfilePhoto'
+import { ButtonEditProfile } from '../Button'
+import ProfilePhoto from '../ProfilePhoto'
 
 function SideBar(){
     return (

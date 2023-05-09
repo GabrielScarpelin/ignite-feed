@@ -4,16 +4,17 @@
   justify-content: center;
   align-items: center;
   padding: 1.25rem;
-}
-.application{
-  display: flex;
-  margin-top: 2rem;
-  align-items: flex-start;
-  gap: 3rem;
   width: 100%;
 }
 .posts {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: fit-content;
+  justify-content: flex-end;
+}
+.application {
+  display: flex;
+  width: 75%;
+  margin-top: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
 }

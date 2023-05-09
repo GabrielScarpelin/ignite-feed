@@ -32,3 +32,7 @@
     border-radius: 0.25rem;
     border: none;
 }
+.buttonPublish:hover{
+    background-color: var(--green-light);
+    cursor: pointer;
+}
